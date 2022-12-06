@@ -1,0 +1,156 @@
+/* Шапка */
+
+
+*,
+
+::before
+::after {
+        box-sizing: border-box;
+}
+
+body{font-family: 'inter',sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: black;}
+
+.main-container{max-width: 1200px;
+margin: 0 auto;}
+
+.header-container{display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.menu-items{display: flex;}
+
+.list-items{padding-right: 50px;}
+
+
+
+li{text-transform: uppercase;
+color: rgba(19, 19, 19, 1);
+}
+
+a{text-decoration: none;
+  color: inherit;}
+
+
+
+ul{padding: 0;
+   margin: 0;
+   list-style: none;}
+
+
+/* Основной контент */
+
+.main-section{padding-top: 140px;}
+
+
+.Xiaomi-Himo{display: flex;
+             justify-content: space-between;}
+
+
+.c26{margin-right: 31px;}
+
+.himo{font-weight: 700;
+      font-size: 64px;
+      line-height: 77px;}
+
+
+.electric-bike{font-weight: 400;
+               font-size: 32px;
+               line-height: 39px; 
+               color: rgba(111, 111, 111, 1);}
+
+.button-bike{width: 420px;
+             height: 80px;
+             background-color: black;
+             color: white;}               
+
+               
+              
+.bike{margin-left: 140px;}
+
+.bike-items{display: flex;
+            text-align: center;
+            justify-content: space-between;}
+
+.bike-list{margin-right: 5px;}
+
+.span-bike{font-weight: 700;
+           font-size: 14px;
+           line-height: 16px;}
+
+.p-bike{font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;}
+ 
+/* Описание */        
+        
+        
+.description{margin-top: 150px;}
+
+.main-description{display: flex;}
+
+.main-text{margin-left: 60px;}
+
+.description-item + .description-item{padding-top: 60px;}
+
+.description-item-title{font-weight: 700;
+                 font-size: 16px;
+                 line-height: 19px;
+                 margin: 0 0 5px}
+.description-item-text{font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;}
+
+
+/* Заказать */
+
+
+.section-order{padding-top: 70px;}
+
+.order-main{display: flex;}
+
+.order-tittle{font-weight: 700;
+              font-size: 16px;
+              line-height: 19px;
+              margin-bottom: 50px;}
+
+
+.order-text{padding-top: 20px;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            }
+           
+.button-order{width: 420px;
+              height: 80px;
+              background-color: black;
+              color: white;
+              margin-top: 40px;}           
+
+.form-order{max-width: 420px;}
+
+.order-input{width: 100%;
+             border: none;
+             border-bottom: 1px solid black;
+             margin-bottom: 15px;}
+
+/* Подвал */
+
+
+.footer{margin-top: 100px;
+        background-color: black;}
+
+.footer-main{color: white;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;}
+.footer-text{padding: 30px 0px;}
+
+
+.social-links{padding-left: 20px;}
+
+.contacts-links{display: block;
+                margin-top: 5px;}           
+                
